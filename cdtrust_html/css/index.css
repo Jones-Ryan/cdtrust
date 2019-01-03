@@ -1190,3 +1190,124 @@ body {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     transform: translate3d(0, -5px, 0);
 }
+/*解决方案*/
+.challange{
+    width: 100%;
+}
+.row-img{
+    display: flex;
+    justify-content: space-between;
+}
+.mt_none{
+    margin-top: 0;
+}
+.mb_none{
+    margin-bottom: 0!important;
+}
+.plan_disc{
+    width: 5px;
+    height: 5px;
+    background-color: #000;
+    border-radius:50%;
+    margin-right: 15px;
+
+}
+.plan_serialize li{
+    font-size:15px;
+    line-height:25px;
+}
+.plan_serialize li:first-child{
+    margin-top: 15px;
+}
+.plan-title{
+    font-size:18px;
+    margin-bottom: 50px;
+}
+.plan_bgc{
+    background-color: #fff;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.content-pad{
+    box-sizing:border-box;
+    padding-top:90px;
+}
+.news-text{
+    width: 580px;
+    font-size: 17px;
+    color:#666;
+    line-height: 30px;
+}
+.mr-eng{
+    margin-right: 88px;
+}
+.news-show{
+    width: 520px;
+    height: 360px;
+}
+.news-intro{
+    width: 100%;
+    height: auto;
+    margin-bottom: 110px;
+    overflow: hidden;
+}
+.pro-title{
+    font-size: 24px;
+    color:#666;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.pro-con{
+    font-size:18px;
+    color:#666;
+    margin-bottom: 15px;
+}
+.detail-title{
+    color:#000;
+    font-weight: bold;
+}
+.detail-con{
+    font-size:15px;
+    color:#666;
+}
+.pro-detail{
+    margin-left: 15px;
+}
+.small-mr{
+    margin-right: 10px;
+}
+/* page-bass*/
+.bass-intro{
+    width: 1270px;
+    height: 270px;
+    margin:0 auto;
+    background: url(../images/bass-intro.png) no-repeat center center;
+    margin-top: -45px;
+    box-sizing:border-box;
+    padding: 68px 560px 75px 84px;
+}
+.bass-bgc-text{
+    width: 626px;
+    font-size:16px;
+    color:#000;
+    line-height: 30px;
+}
+.benben-icon{
+    width: 18px;
+    height: 22px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+.show{
+    margin-left: 5px;
+}
+.bass-circle{
+    width: 100%;
+    height: 742px;
+    background-color: #fff;
+}
