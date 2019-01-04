@@ -1318,15 +1318,18 @@ body {
 }
 .bass-circle{
     width: 100%;
-    height: 742px;
+    height: 447px;
     background-color: #eee;
+    box-sizing: border-box;
+    padding-top: 22px;
+    padding-bottom: 45px;
 }
 .center-bass-circle{
-    width:1200px;
-    height: 742px;
+    width:720px;
+    height:380px;
     margin:0 auto;
     background: url(../images/bass-circle.png) no-repeat center center;
-
+    background-size: 100% 100%;
 }
 .center-bass-man{
     width: 100%;
@@ -1342,8 +1345,8 @@ body {
 }
 .center-partner ul li{
     width: 100%;
-    height: 140px;
-    padding:30px 0px 30px 30px;
+    height: 100px;
+    padding:20px;
     box-sizing:border-box;
     background-color: #fff;
     opacity: 0.8;
@@ -1351,12 +1354,12 @@ body {
 }
 .bass-title{
     color:#333;
-    font-size:24px;
-    margin-bottom: 19px;
+    font-size:20px;
+    margin-bottom: 10px;
 }
 .bass-title-int{
     color:#666;
-    font-size:18px;
+    font-size:16px;
 }
 .news-look{
     width: 100%;
@@ -1509,4 +1512,32 @@ body {
 }
 .center-height{
     height: 500px;
+}
+
+/* 修改plan页面 */
+.center-banner-pro{
+    width: 850px;
+    height: 500px;
+    box-sizing:border-box;
+    padding:89px;
+    margin:0 auto;
+    
+}
+.product-title{
+    text-align: center;
+    font-size:30px;
+    color:#fff;
+    margin-bottom: 50px;
+}
+.product-content{
+    font-size:18px;
+    color:#fff;
+    line-height:27px;
+    text-align: center;
+}
+.product-bass-title{
+    font-size:30px;
+    color:#fff;
+    text-align: center;
+    margin-top: 210px;
 }
