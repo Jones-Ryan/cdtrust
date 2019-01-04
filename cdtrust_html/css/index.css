@@ -408,6 +408,8 @@ a {
     justify-content: space-between;
     width: 610px;
     height: 50px;
+    line-height: 50px;
+    margin-left: 50px;
     border-bottom:1px solid #55596d;
     color: #fff;
     cursor: pointer;
@@ -447,7 +449,7 @@ a {
 .footer {
     width: 100%;
     /* margin: 80px 0 -30px; */
-    background-color: #000;
+    background-color: #2d2d2d;
     height: 240px;
     color: #fff;
 }
@@ -478,6 +480,7 @@ a {
     line-height: 14px;
     height: 14px;
     margin-bottom: 10px;
+    color: #696969;
 }
 .footer-box .location {
     display: inline-block;
