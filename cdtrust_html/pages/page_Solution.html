@@ -39,7 +39,7 @@
     <article class="content" style="margin-bottom:50px;">
         <div class="banner-sol banner-sol-bg"></div>
         <div class="content_detail">
-            <div class="copper ">
+            <div class="copper data-index" data-id='1'>
                 <div class="top_img">
                     <img src="../images/pic11.png" alt="">
                 </div>
@@ -52,7 +52,7 @@
                     </p>
                 </div>
             </div>
-            <div class="copper ">
+            <div class="copper data-index" data-id='2'>
 
                 <div class="top_img">
                     <img src="../images/pic22.png" alt="">
@@ -210,5 +210,12 @@
     </ul>
     <script src="../js/index.js"></script>
 </body>
-
+    <script>
+        $('.data-index').on('click',function(){
+            console.log($(this))
+            var s = $(this).attr('data-id');
+            console.log(s)
+            location.href = "page_Plan.html?" + "id=" + encodeURI(s);
+        })
+    </script>
 </html>
