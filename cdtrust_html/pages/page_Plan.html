@@ -18,7 +18,7 @@
             <a class="logo-img" href=""></a>
             <nav class="nav-box">
                 <div class="nav-box-list">
-                    <a href="../html/index.html" >首页</a>
+                    <a href="../html/index.html">首页</a>
                 </div>
                 <div class="nav-box-list">
                     <a href="../pages/page_Serve.html" class=" active-nav-border">产品及服务</a>
@@ -36,14 +36,11 @@
         </div>
     </header>
     <article class="content">
-        <div class="banner-sol banner-sol-bg">
+        <div class="banner-sol banner-sol-bg solution-plan">
             <div class="center-banner-pro">
-                <p class="product-title">上港集团—港运物流服务联盟链</p>
+                <p class="product-title"></p>
                 <p class="product-content">
-                    上海国际港务（集团）股份有限公司（简称：“上港集团”），主营业
-                    务分四大板块，即：集装箱码头业务、散杂货码头业务、港口物流业务
-                    和港口服务业务目前已形成了包括码头装卸、仓储堆存、航运、陆运
-                    代理等服务在内的港口物流产业
+                    
                 </p>
             </div>
         </div>
@@ -59,7 +56,7 @@
             </p>
             <div class="challange">
                 <ul class="row-img">
-                    <li>
+                    <!-- <li>
                         <img src="../images/plan_one.png" alt="">
                     </li>
                     <li>
@@ -67,13 +64,13 @@
                     </li>
                     <li>
                         <img src="../images/plan_three.png" alt="">
-                    </li>
+                    </li> -->
                 </ul>
                 <ul class="plan_serialize">
-                    <li><span class="plan_disc"></span>港口物流生态亟待建立</li>
+                    <!-- <li><span class="plan_disc"></span>港口物流生态亟待建立</li>
                     <li><span class="plan_disc"></span>信息不同步，难以实现业务协同</li>
                     <li><span class="plan_disc"></span>缺乏对港口物流信息的深化应用</li>
-                    <li><span class="plan_disc"></span>角色、凭证、流程众多，数据分散，港口物流信息链断裂</li>
+                    <li><span class="plan_disc"></span>角色、凭证、流程众多，数据分散，港口物流信息链断裂</li> -->
                 </ul>
             </div>
             <p class="product_show">
@@ -86,15 +83,14 @@
                 </span>
             </p>
             <div class="challange">
-                <p class="plan-title">&emsp;&emsp;&emsp;助力港口物流智能化,打造港运物流服务联盟链</p>
-                 <div class="plan-step">
-                    <img src="../images/plan_step.png" alt="">
+                <div class="plan-step">
+                    <!-- <img src="../images/plan_step.png" alt=""> -->
                 </div>
-                <ul class="plan_serialize">
-                    <li><span class="plan_disc"></span>智能化港口建设</li>
-                    <li><span class="plan_disc"></span>基于大数据的信用体系建设</li>
-                    <li><span class="plan_disc"></span>拓展联盟节点，丰富业务维度</li>
-                    <li><span class="plan_disc"></span>对接外部生态，实现闭环的联盟服务体系裂</li>
+                <ul class="plan_serialize1">
+                    <!-- <li><span class="plan_disc" id="jiejue-plan"></span>智能化港口建设</li>
+                    <li><span class="plan_disc" id="jiejue-plan"></span>基于大数据的信用体系建设</li>
+                    <li><span class="plan_disc" id="jiejue-plan"></span>拓展联盟节点，丰富业务维度</li>
+                    <li><span class="plan_disc" id="jiejue-plan"></span>对接外部生态，实现闭环的联盟服务体系裂</li> -->
                 </ul>
             </div>
 
@@ -153,29 +149,121 @@
     <script src="../js/index.js"></script>
 </body>
 <script>
-    var arr1 ='';
-    
+    var arr1 = '';
+
     console.log()
     var loc = location.href;
     var n1 = loc.length;//地址的总长度
     var n2 = loc.indexOf("=");//取得=号的位置
     var id = decodeURI(loc.substr(n2 + 1, n1 - n2));//从=号后面的内容
     console.log(id)
-    if(id == 1){
+    if (id == 1) {
         arr1 = {
             'titile': '上港集团——港运物流服务联盟链',
-                'synopsis': '上海国际港务（集团）股份有限公司（简称：“上港集团”），主营业务分四大板块，即：集装箱码头业务、散杂货码头业务、港口物流业务和港口服务业务，目前已形成了包括码头装卸、仓储堆存、航运、陆运、代理等服务在内的港口物流产业。',
-                    'background': ['角色、凭证、流程众多，数据分散，港口物流信息链断裂', '信息不同步，难以实现业务协同', '缺乏对港口物流信息的深化应用', '港口物流生态亟待建立'],
-                        'scheme': ['智能化港口建设', '基于大数据的信用体系建设', '拓展联盟节点，丰富业务维度', '对接外部生态，实现闭环的联盟服务体系']
+            'synopsis': '上海国际港务（集团）股份有限公司（简称：“上港集团”），主营业 务分四大板块，即：集装箱码头业务、散杂货码头业务、港口物流业务 和港口服务业务目前已形成了包括码头装卸、仓储堆存、航运、陆运 代理等服务在内的港口物流产业',
+            'background': ['角色、凭证、流程众多，数据分散，港口物流信息链断裂','信息不同步，难以实现业务协同','缺乏对港口物流信息的深化应用','港口物流生态亟待建立'],
+            'scheme': [ '智能化港口建设','基于大数据的信用体系建设','拓展联盟节点，丰富业务维度','对接外部生态，实现闭环的联盟服务体系'],
+            'chanllangeImg':['../images/plan_one.png','../images/plan_two.png','../images/plan_three.png'],
+            'solutionImg':['../images/plan_step.png']
         };
-    }else if(id == 2){
+    } else if (id == 2) {
         arr1 = {
-            'titile': '11111',
-            'synopsis': '上海国际港务（集团）股份有限公司（简称：“上港集团”），主营业务分四大板块，即：集装箱码头业务、散杂货码头业务、港口物流业务和港口服务业务，目前已形成了包括码头装卸、仓储堆存、航运、陆运、代理等服务在内的港口物流产业。',
-            'background': ['角色、凭证、流程众多，数据分散，港口物流信息链断裂', '信息不同步，难以实现业务协同', '缺乏对港口物流信息的深化应用', '港口物流生态亟待建立'],
-            'scheme': ['智能化港口建设', '基于大数据的信用体系建设', '拓展联盟节点，丰富业务维度', '对接外部生态，实现闭环的联盟服务体系']
+            'titile': '中航材――航材信息共享联盟链',
+            'synopsis': '中国航空器材集团有限公司（简称“中航材”），主营业务分为：整机保障、器材保障、技术装备及机场业务保障服务、通用航空发展及保障服务。',
+            'background': ['航空公司自建储备航材库、周转率低、，冗余度高、共享率低。', '为有效解决航材共享现状的痛点，中航材探索新型业务模式'],
+            'scheme': ['航材联盟建设', '激励共享模型', '航材资源目录', '信息系统对接', '智慧航材', '发展规划'],
+            'chanllangeImg':[''],
+            'solutionImg':['']
+        };
+    }else if (id == 3) {
+        arr1 = {
+            'titile': '深圳股交――基于区块链的股交中心建设',
+            'synopsis': '深圳前海股权交易中心有限公司（简称“深圳股交”），是服务中小微企业的金融基础设施和公共平台，为广东省内中小微企业证券非公开发行、转让及相关活动提供设施与服务，也是地方人民政府扶持中小微企业政策措施的综合运用平台。',
+            'background': ['数据分散，缺乏相对集中的场外市场数据库', '市场主体和机构鱼龙混杂，数据失真篡改，欺诈风险高', '场外和私募股权敏感信息保密性要求高，数据共享困难', '交易流程复杂，交易链条不连贯'],
+            'scheme': ['数据价值流通体系', '高效、可信的新型登记交易体系', '链接投融资，打造新型业务模式，深耕企业市场', '金融产品创新、资本市场投融资方式升级'],
+            'chanllangeImg':[''],
+            'solutionImg':['']
+        };
+    }else if (id == 4) {
+        arr1 = {
+            'titile': '天津东疆保税港：基于区块链的企业监管服务系统',
+            'synopsis': '',
+            'background': ['东疆保税港区管委会拟通过建设企业监管服务系统，将区块链技术融入监管服务体系在市场准入、金融制度、税收和监管体制等方面做出新的制度设计和安排，打通监管与服务对象之间的信息通道，提升辖区企业监管透明化、企业服务便利化，推动企业信用服务，创造数据科技思维，通过聚集要素、产业升级和新型业务方式的拓展，促进东疆保税港区的良性发展和循环，为保税港区进入世界先进行业奠定基础。'],
+            'scheme': ['企业档案数据库建立企业档案数据库，管委会可通过整合现有数据资源和外部数据资源对企业档案数据库不断丰富和完善。保税港区政府部门可通过累计数据对企业进行全面分析，掌握企业运营状态。', '企业监管服务系统企业监管服务系统是基于大数据、区块链理念构建的创新型监管服务系统。实现企业照前审核、行为监管、风险处置。', '区块链存证服务企业监管服务系统中相关操作流程及企业档案数据库中的企业数据、合同文件等，都可在区块链上进行存证。协助企业、政府实现电子合同和数据的在线存管、使用授权、鉴定真伪，以及司法鉴定等。', '企业业务撮合系统针对辖区内企业的业务特征和业务需求，建设一个服务于辖区企业的业务沟通平台，撮合企业之间的需求与服务。'],
+            'chanllangeImg':[''],
+            'solutionImg':['']
+        };
+    }else if (id == 5) {
+        arr1 = {
+            'titile': '',
+            'synopsis': '',
+            'background': ['', '', '', ''],
+            'scheme': ['', '', '', '']
+        };
+    }else if (id == 6) {
+        arr1 = {
+            'titile': '',
+            'synopsis': '',
+            'background': [''],
+            'scheme': [ '']
+        };
+    }else if (id == 7) {
+        arr1 = {
+            'titile': '',
+            'synopsis': '',
+            'background': [''],
+            'scheme': [ '']
+        };
+    }else if (id == 8) {
+        arr1 = {
+            'titile': '',
+            'synopsis': '',
+            'background': [''],
+            'scheme': [ '']
+        };
+    }else if (id == 9) {
+        arr1 = {
+            'titile': '',
+            'synopsis': '',
+            'background': [''],
+            'scheme': [ '']
         };
     }
-    console.log(arr1)
+    console.log(arr1);
+    $(".product-title").html(arr1.titile);
+    $(".product-content").html(arr1.synopsis);
+    // 背景与挑战文字
+    var str='';
+    for(var i=0;i<arr1.background.length;i++){
+        
+       str+='<li><span class="plan_disc"></span>'+ arr1.background[i] +'</li>';
+    }
+    $(".plan_serialize").append(str);
+    // 背景与挑战图片
+    var img='';
+    for(var i=0;i<arr1.chanllangeImg.length;i++){
+        console.log(arr1.chanllangeImg[i]);
+       img+='<li><img src="'+arr1.chanllangeImg[i]+'"></li>';
+    }
+    $(".row-img").append(img);
+    //  解决方案文字
+    var str1='';
+    for(var i=0;i<arr1.scheme.length;i++){
+        console.log(arr1.scheme[i]);
+       str1+='<li><span class="plan_disc"></span>'+ arr1.scheme[i] +'</li>';
+    }
+    $(".plan_serialize1").append(str1);
+   //  解决方案图片
+   var img1='';
+    for(var i=0;i<arr1.solutionImg.length;i++){
+        console.log(arr1.solutionImg[i]);
+       img1+='<li><img src="'+arr1.solutionImg[i]+'"></li>';
+    }
+    $(".plan-step").append(img1);
+    
+    $(".product-title").html(arr1.titile);
+    $(".product-title").html(arr1.titile);
+   
 </script>
+
 </html>
