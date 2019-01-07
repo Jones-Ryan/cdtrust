@@ -1218,7 +1218,7 @@ body {
     line-height: 22px;
     overflow: hidden;
     text-overflow: ellipsis;
-    /* display: -webkit-box;
+    display: -webkit-box;
 	display:-moz-box;
 	-moz-box-orient:horizontal;
 	-webkit-line-clamp: 3;
@@ -1226,7 +1226,7 @@ body {
 	box-orient:horizontal;
 	-webkit-box-orient: vertical;
 	-moz-appearance-line-clamp:3;
-	overflow:hidden; */
+	overflow:hidden;
 }
 
 .copper:hover {
